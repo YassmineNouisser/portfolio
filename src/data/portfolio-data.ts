@@ -3,7 +3,7 @@ export const personalInfo = {
   title: "AI Engineering Student · Full-Stack Web & AI Developer",
   bio: "AI Engineering Student · LLMs, ML & DL · Full-Stack Web & AI Developer · Developing Smart AI-Powered Solutions",
   location: "Tunis, Tunisie",
-  email: "yassmine.nouisser@esprit.tn",
+  email: "nouisseryassmine@gmail.com",
   phone: "(+216) 25 983 383",
   linkedin: "https://linkedin.com/in/yassmine-nouisser-a50aba288",
   github: "https://github.com/yassmine-nouisser",
