@@ -4,7 +4,7 @@ import { useState, FormEvent } from "react";
 import { motion } from "framer-motion";
 import { personalInfo } from "@/data/portfolio-data";
 import { FiMail, FiPhone, FiMapPin, FiSend, FiArrowUpRight, FiClock, FiCheck } from "react-icons/fi";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const projectTypes = [
   "AI / ML Project",
@@ -16,7 +16,6 @@ const projectTypes = [
 
 const socials = [
   { icon: FaLinkedinIn, href: personalInfo.linkedin, label: "LinkedIn", handle: "yassmine-nouisser" },
-  { icon: FaGithub, href: personalInfo.github, label: "GitHub", handle: "yassmine-nouisser" },
 ];
 
 export default function ContactSection() {

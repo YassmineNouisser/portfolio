@@ -5,8 +5,7 @@ export const personalInfo = {
   location: "Tunis, Tunisie",
   email: "nouisseryassmine@gmail.com",
   phone: "(+216) 25 983 383",
-  linkedin: "https://github.com/YassmineNouisser",
-  github: "https://github.com/yassmine-nouisser",
+  linkedin: "https://www.linkedin.com/in/yassmine-nouisser-a50aba288/",
 };
 
 export const heroTitles = [

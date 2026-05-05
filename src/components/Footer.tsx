@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { personalInfo, navLinks } from "@/data/portfolio-data";
 import { FiArrowUpRight, FiArrowUp, FiMapPin, FiMail, FiPhone } from "react-icons/fi";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const contactRows = [
   { icon: FiMail,   label: "Email",    value: personalInfo.email,    href: `mailto:${personalInfo.email}` },
@@ -13,7 +13,6 @@ const contactRows = [
 
 const socials = [
   { icon: FaLinkedinIn, label: "LinkedIn", href: personalInfo.linkedin },
-  { icon: FaGithub,     label: "GitHub",   href: personalInfo.github },
 ];
 
 export default function Footer() {
