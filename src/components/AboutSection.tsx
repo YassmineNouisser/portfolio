@@ -7,7 +7,7 @@ import SectionWrapper from "./SectionWrapper";
 import SectionHeading from "./SectionHeading";
 
 const stats = [
-  { value: "9+", label: "Projects" },
+  { value: "18+", label: "Projects" },
   { value: "2", label: "Companies" },
   { value: "8+", label: "Certifications" },
   { value: "3rd", label: "Year at ESPRIT" },
