@@ -24,11 +24,26 @@ export const skillCategories = [
   },
   {
     title: "AI & Data Science",
-    skills: ["Machine Learning", "Deep Learning", "LLMs", "NLP", "Computer Vision", "BI", "RAG"],
+    skills: [
+      "Machine Learning",
+      "Deep Learning",
+      "LLMs",
+      "NLP",
+      "Computer Vision",
+      "RAG",
+      "Fine-tuning",
+      "PyTorch",
+      "XGBoost",
+      "Random Forest",
+      "ResNet / CNN",
+      "GAT / LSTM",
+      "XAI (SHAP)",
+      "BI",
+    ],
   },
   {
     title: "Frameworks",
-    skills: ["Django", "Next.js", "React", "Node.js", "Qt", "SDL"],
+    skills: ["Django", "FastAPI", "Next.js", "React", "Node.js", "Qt", "SDL"],
   },
   {
     title: "Databases",
@@ -215,10 +230,10 @@ export const projects: Project[] = [
     title: "Gabest",
     year: "2025",
     description:
-      "Commerce experience — product discovery flow with refined motion",
+      "The AI that heals Gabès — turning industrial pollution into an agricultural resource",
     longDescription:
-      "A shopping platform focused on product discovery. Refined micro-interactions, a fast browse → cart loop and a personalized feed.",
-    tags: ["E-commerce", "Web", "Motion"],
+      "Built in 24 hours with team iDeep ME at the AI Healing Gabès Hackathon: the first AI-driven industrial × agricultural symbiosis platform for the region. Six specialized models — air-health prediction (GAT + LSTM), wind-aware production control (Random Forest), ResNet-50 leaf-disease detection across 38 classes, phosphogypsum-to-fertilizer XGBoost with SHAP explanations, multi-task water safety, and biomass ↔ industrial matching — wired into a FastAPI + React platform delivering sub-15-minute pollution alerts to 400,000 exposed residents.",
+    tags: ["AI / ML", "PyTorch", "FastAPI", "Hackathon"],
     device: "browser",
     screens: Array.from({ length: 8 }, (_, i) => `/projects/gabest${i + 1}.png`),
     github: "#",
